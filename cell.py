@@ -117,7 +117,7 @@ class Cell:
             self.cell_btn_object.configure(highlightbackground='orange')
             self.is_flagged = True
         else:
-            self.cell_btn_object.configure(highlightbackground='black')
+            self.cell_btn_object.configure(highlightbackground='white')
             self.is_flagged = False
 
     @staticmethod

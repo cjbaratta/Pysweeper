@@ -7,7 +7,7 @@ root = Tk()
 # Overide settings of the window
 root.configure(bg='black')
 root.geometry(f'{settings.WIDTH}x{settings.HEIGHT}')
-root.title('Minesweeper')
+root.title('Pysweeper')
 
 top_frame = Frame(
     root,
