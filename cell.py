@@ -27,7 +27,7 @@ class Cell:
         )
         btn.bind('<Button-1>', self.left_click_actions)  # Left click
         # Replace button-2 with button-3 on Windows and Linux)
-        btn.bind('<Button-2>', self.right_click_actions)  # Right click
+        btn.bind('<Button-3>', self.right_click_actions)  # Right click
         self.cell_btn_object = btn
 
     @staticmethod
@@ -105,7 +105,7 @@ class Cell:
 
     def show_mine(self):
         # Using outlines to display mines due to macOS click handling.
-        self.cell_btn_object.configure(highlightbackground='red')
+        self.cell_btn_object.configure(bg='red')
         messagebox.showinfo(
             "You lost!",
             "You blew up!\nTry again?"

@@ -1,3 +1,0 @@
-([('main',
-   '/Users/corbettbaratta/Library/CloudStorage/OneDrive-Personal/Projects/minepie/Pysweeper/dist/main',
-   'EXECUTABLE')],)
